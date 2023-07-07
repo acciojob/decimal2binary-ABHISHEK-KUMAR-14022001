@@ -1,18 +1,5 @@
-function threeSum(arr, target) {
-     let binaryNum = new Array(32);
- 
-   
-    let i = 0;
-    while (n > 0) {
- 
-      
-        binaryNum[i] = n % 2;
-        n = Math.floor(n / 2);
-        i++;
-    }
-  binaryNum.reverse();
-	return binaryNum;
-    
+function decimalToBinary(num) {
+  // Write your code here
 }
 
-module.exports = threeSum;
+window.decimalToBinary = decimalToBinary;
